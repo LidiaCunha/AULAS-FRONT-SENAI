@@ -1,5 +1,18 @@
-div {
-    display: flex;
-    flex-direction: column;
-    
+.container {
+    display: none;
+    justify-items: center;
+    gap: 1vh;
 }
+
+.exibir{
+    display: grid;
+}
+
+.ocultar{
+    display: grid;
+}
+
+#exibir{
+    cursor: pointer;
+}
+
