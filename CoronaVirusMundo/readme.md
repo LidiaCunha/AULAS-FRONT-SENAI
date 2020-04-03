@@ -1,0 +1,2 @@
+# Esclarecimentos 
+    - As capacidades adquiridas foram as mesmas do exercicio anterior, sobre os avanços do CoronaVírus no Brasil mudando apenas o foco que agora se encontra na escala dos países, utlizando uma imagem svg do mapa mundi e uma API diferente.
