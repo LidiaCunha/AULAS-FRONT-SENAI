@@ -2,8 +2,8 @@
    <head> 
       <meta charset="UTF-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style.css">
-	  <script defer src="cadastro.js"></script> 
+      <link rel="stylesheet" href="./style.css">
+	  <script defer src="./cadastro.js" type="module"></script> 
    </head>
    <body>
       <div class=cadastro-form>
@@ -33,18 +33,16 @@
                </tbody>
             </table>
          </div>
-
       </div>
-      <hr>
       <div class="conteiner-modal">
          <div class="modal">
             <div class="titulo">
                Cadastro novo aluno
             </div>
-            <form class="form">
-               <input type="text" id="nome" placeholder="Primeiro Nome"/>
+            <form class="form" id="form">
+               <input type="text" id="nome" data-type="text" placeholder="Primeiro Nome"/>
                <input type="text" id="email" placeholder="Endereço de email"/>
-               <input type="text" id="celular" placeholder="Celular"/>
+               <input type="text" id="celular" data-type="cellphone" placeholder="Celular"/>
                <input type="text" id="endereco" placeholder="Endereço"/>
                <input type="text" id="numero" placeholder="Numero"/>
                <input type="text" id="bairro" placeholder="Bairro"/>
